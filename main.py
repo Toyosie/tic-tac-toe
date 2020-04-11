@@ -19,7 +19,7 @@ pg.init()
 fps = 30
 CLOCK = pg.time.Clock()
 screen = pg.display.set_mode((width, height+100),0,32)
-pg.display.set_caption("tIc tAc tOe")
+pg.display.set_caption("tIc tAc tOe (play with a friend)")
 
 #loading the images
 opening = pg.image.load('home.png')
@@ -128,8 +128,7 @@ def drawXO(row,col):
         screen.blit(oimg,(posy,posx))
         XO= 'x'
     pg.display.update()
-    #print(posx,posy)
-    #print(TTT)
+    
    
     
 
